@@ -1,0 +1,39 @@
+:root {
+  --green: #213547;
+  --black: #242424;
+  --green-dark: #33a06f;
+  --white: #fff;
+  --border-radius: 10px;
+  --font: "Crete Round", serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--green);
+  font-family: var(--font);
+  font-weight: 400;
+}
+
+a {
+  transition: .4s;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
