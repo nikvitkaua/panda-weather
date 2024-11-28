@@ -3,6 +3,7 @@
   --black: #242424;
   --green-dark: #33a06f;
   --white: #fff;
+  --white-opacity: rgba(235, 235, 235, .9);
   --border-radius: 10px;
   --font: "Crete Round", serif;
 }
@@ -14,7 +15,8 @@
 }
 
 body {
-  background: var(--green);
+  background: url('./background.jpg') center center / cover no-repeat;
+  height: 100vh;
   font-family: var(--font);
   font-weight: 400;
 }
